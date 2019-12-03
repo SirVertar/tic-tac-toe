@@ -8,7 +8,7 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 
-public class GameSceneMain extends Application {
+public class TicTacToeMain extends Application {
 
     private Image backGroundImage = new Image("file:resources/background.png");
 
@@ -29,9 +29,6 @@ public class GameSceneMain extends Application {
         Background background = new Background(backgroundImage);
         pane.setBackground(background);
 
-        TicController ticController = new TicController();
-
-
         pane.setPrefSize(450, 540);
         Scene scene = new Scene(pane, 450, 540, Color.DARKGREY);
         primaryStage.setScene(scene);
@@ -40,5 +37,6 @@ public class GameSceneMain extends Application {
 
         SceneChanger sceneChanger = new SceneChanger();
         sceneChanger.menuScene(pane, primaryStage);
+
     }
 }

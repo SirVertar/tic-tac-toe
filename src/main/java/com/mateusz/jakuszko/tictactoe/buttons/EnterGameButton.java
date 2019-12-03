@@ -1,7 +1,5 @@
 package com.mateusz.jakuszko.tictactoe.buttons;
 
-import com.mateusz.jakuszko.tictactoe.HumanPlayer;
-import com.mateusz.jakuszko.tictactoe.Player;
 import com.mateusz.jakuszko.tictactoe.SceneChanger;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -13,8 +11,11 @@ import javafx.scene.layout.Pane;
 public class EnterGameButton extends Button {
 
     private Pane mainPane;
+    private SceneChanger sceneChanger;
 
-    public EnterGameButton(Pane mainPane) {
+
+    public EnterGameButton(Pane mainPane, SceneChanger sceneChanger) {
+        this.sceneChanger = sceneChanger;
         this.mainPane = mainPane;
         this.setPrefSize(450, 150);
         this.setBlendMode(BlendMode.SOFT_LIGHT);
@@ -31,11 +32,14 @@ public class EnterGameButton extends Button {
                 }
                 if (numberOfChild == 3) {
                     mainPane.getChildren().remove(0, 3);
+                    sceneChanger.setNameOfTwoPlayers();
                 } else {
                     mainPane.getChildren().remove(0, 2);
+                    sceneChanger.setNameOfOnePlayer();
                 }
+
                 SceneChanger sceneChanger = new SceneChanger();
-                sceneChanger.setGameScene(mainPane);
+                sceneChanger.gameScene(mainPane);
             }
         });
     }

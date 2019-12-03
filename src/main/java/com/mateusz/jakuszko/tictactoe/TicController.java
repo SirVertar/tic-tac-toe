@@ -3,10 +3,10 @@ package com.mateusz.jakuszko.tictactoe;
 
 public class TicController {
 
-    private GameSceneMain gameSceneMain;
+    private TicTacToeMain ticTacToeMain;
 
-    public void setMain(GameSceneMain gameSceneMain) {
-        this.gameSceneMain = gameSceneMain;
+    public void setMain(TicTacToeMain ticTacToeMain) {
+        this.ticTacToeMain = ticTacToeMain;
     }
 
     }

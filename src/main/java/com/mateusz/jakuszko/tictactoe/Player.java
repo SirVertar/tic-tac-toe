@@ -20,5 +20,7 @@ public abstract class Player {
         score++;
     }
 
-
+    public void setName(String name) {
+        this.name = name;
+    }
 }

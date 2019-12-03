@@ -14,7 +14,6 @@ public class GameButton extends Button {
     private boolean isEmpty = true;
     private static int numberOfMove = 0;
 
-
     public GameButton() {
         this.setPrefSize(150, 150);
         this.setBlendMode(BlendMode.SOFT_LIGHT);
