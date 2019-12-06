@@ -5,17 +5,17 @@ public class PlayerCreator {
     private HumanPlayer humanPlayer2;
     private ComputerPlayer computerPlayer;
 
-    public void createTwoHumanPlayers(String name1, String name2) {
-        humanPlayer1 = new HumanPlayer(name1);
-        humanPlayer2 = new HumanPlayer(name2);
+    public void createTwoHumanPlayers() {
+        humanPlayer1 = new HumanPlayer();
+        humanPlayer2 = new HumanPlayer();
         System.out.println(humanPlayer1.getName());
         System.out.println(humanPlayer2.getName());
     }
 
-    public void createOnePlayerAndComputer(String name1) {
-        humanPlayer1 = new HumanPlayer(name1);
+    public void createOnePlayerAndComputer(Board board) {
+        humanPlayer1 = new HumanPlayer();
         System.out.println(humanPlayer1.getName());
-        computerPlayer = new ComputerPlayer();
+        computerPlayer = new ComputerPlayer(board);
     }
 
 

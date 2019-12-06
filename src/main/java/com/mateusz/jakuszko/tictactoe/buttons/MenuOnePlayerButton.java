@@ -6,45 +6,44 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.effect.BlendMode;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Pane;
+import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
+import javafx.scene.text.TextAlignment;
 
 
 public class MenuOnePlayerButton extends Button {
 
-    private Pane mainPane;
-    private PlayerCreator playerCreator;
 
-    public MenuOnePlayerButton(Pane mainPane, PlayerCreator playerCreator) {
-        this.mainPane = mainPane;
-        this.playerCreator = playerCreator;
-        this.setPrefSize(450,150);
-        this.setBlendMode(BlendMode.SOFT_LIGHT);
-        this.setId("1PlayerButton");
+    private SceneChanger sceneChanger;
+    private Image playerVsComputerImage = new Image("file:resources/PvC.jpg");
+
+    public MenuOnePlayerButton(SceneChanger sceneChanger) {
+
+        this.sceneChanger = sceneChanger;
+        this.setPrefSize(550, 150);
         makeAnotherOption();
+
+        BackgroundImage backgroundCircle = new BackgroundImage(playerVsComputerImage, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT,
+                BackgroundPosition.CENTER,
+                new BackgroundSize(550, 150, false,
+                        false, true, true));
+        this.setBackground(new Background(backgroundCircle));
+        this.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.DOTTED, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
+        this.setTranslateX(0);
+        this.setTranslateY(0);
+        this.setTextAlignment(TextAlignment.RIGHT);
     }
 
-    public void makeActionOnButton() {
-        this.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-
-                setText("accepted");
-                mainPane.getChildren().remove(0,4);
-                SceneChanger sceneChanger = new SceneChanger();
-                sceneChanger.create1PlayersNameScene(mainPane);
-            }
-        });
-    }
-
-    public void makeAnotherOption() {
+    private void makeAnotherOption() {
         this.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                mainPane.getChildren().remove(0,4);
-                SceneChanger sceneChanger = new SceneChanger();
-                sceneChanger.create1PlayersNameScene(mainPane);
-                playerCreator.createOnePlayerAndComputer("jeden wiesniak");
+                sceneChanger.getMainPane().getChildren().remove(0, 4);
+                sceneChanger.create1PlayersNameScene();
+                sceneChanger.getPlayerCreator().createOnePlayerAndComputer(sceneChanger.getBoard());
             }
         });
     }

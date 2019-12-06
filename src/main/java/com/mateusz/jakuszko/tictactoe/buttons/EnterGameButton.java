@@ -10,15 +10,14 @@ import javafx.scene.layout.Pane;
 
 public class EnterGameButton extends Button {
 
-    private Pane mainPane;
+
     private SceneChanger sceneChanger;
 
-
-    public EnterGameButton(Pane mainPane, SceneChanger sceneChanger) {
+    public EnterGameButton(SceneChanger sceneChanger) {
         this.sceneChanger = sceneChanger;
-        this.mainPane = mainPane;
         this.setPrefSize(450, 150);
         this.setBlendMode(BlendMode.SOFT_LIGHT);
+        this.setText("Enter the game");
         makeActionOnButton();
     }
 
@@ -27,19 +26,17 @@ public class EnterGameButton extends Button {
             @Override
             public void handle(ActionEvent event) {
                 int numberOfChild = 0;
-                for (Node child : mainPane.getChildren()) {
+                for (Node child : sceneChanger.getMainPane().getChildren()) {
                     numberOfChild++;
                 }
                 if (numberOfChild == 3) {
-                    mainPane.getChildren().remove(0, 3);
+                    sceneChanger.getMainPane().getChildren().remove(0, 3);
                     sceneChanger.setNameOfTwoPlayers();
                 } else {
-                    mainPane.getChildren().remove(0, 2);
+                    sceneChanger.getMainPane().getChildren().remove(0, 2);
                     sceneChanger.setNameOfOnePlayer();
                 }
-
-                SceneChanger sceneChanger = new SceneChanger();
-                sceneChanger.gameScene(mainPane);
+                sceneChanger.gameScene();
             }
         });
     }

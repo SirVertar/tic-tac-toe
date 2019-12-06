@@ -23,20 +23,20 @@ public class TicTacToeMain extends Application {
         primaryStage.setTitle("TIC-TAC-TOE");
         FlowPane pane = new FlowPane();
 
-        BackgroundSize backgroundSize = new BackgroundSize(450, 540, true, true, true, false);
+        BackgroundSize backgroundSize = new BackgroundSize(550, 540, true, true, true, false);
         BackgroundImage backgroundImage = new BackgroundImage(backGroundImage, BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT,
                 BackgroundPosition.CENTER, backgroundSize);
         Background background = new Background(backgroundImage);
         pane.setBackground(background);
 
-        pane.setPrefSize(450, 540);
-        Scene scene = new Scene(pane, 450, 540, Color.DARKGREY);
+        pane.setPrefSize(550, 540);
+        Scene scene = new Scene(pane, 550, 540, Color.DARKGREY);
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.show();
 
-        SceneChanger sceneChanger = new SceneChanger();
-        sceneChanger.menuScene(pane, primaryStage);
+        SceneChanger sceneChanger = new SceneChanger(pane, primaryStage);
+        sceneChanger.menuScene();
 
     }
 }
