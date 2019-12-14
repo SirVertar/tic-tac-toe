@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tic-tac-toe.main" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ac1f86-7339-4970-bc6c-f65852954712" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/ExitGame.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/PvC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/PvP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/gameName.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tic_tac_toe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tic_tac_toe_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FILE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/LoadButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,37 +21,39 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/ComputerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/ComputerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/GameSceneMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/HumanPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/PlayerCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/PlayerCreator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/SceneChanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/SceneChanger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/TicController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/ComputerPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/PlayerCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/PlayerCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/SceneChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/TicController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/TicTacToeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/TicTacToeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/GameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/GameButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,16 +77,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UG9zpHnaflDSQaYlugIAXWeWjZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stare/smsv2" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -141,9 +152,10 @@
     <configuration name="TicTacToeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mateusz.jakuszko.tictactoe.TicTacToeMain" />
       <module name="tic-tac-toe.main" />
+      <option name="PROGRAM_PARAMETERS" value="--stacktrace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mateusz.jakuszko.tictactoe.*" />
+          <option name="PATTERN" value="com.mateusz.jakuszko.tictactoe.TicTacToeMain" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,6 +163,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FirstSceneMain" />
+      <item itemvalue="Application.GameSceneMain" />
+      <item itemvalue="Application.TicTacToeMain" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TicTacToeMain" />
@@ -184,7 +201,15 @@
       <workItem from="1575560203804" duration="3070000" />
       <workItem from="1575563291930" duration="4958000" />
       <workItem from="1575572034389" duration="12727000" />
-      <workItem from="1575590985420" duration="302000" />
+      <workItem from="1575590985420" duration="800000" />
+      <workItem from="1575733869839" duration="2708000" />
+      <workItem from="1575742353793" duration="2603000" />
+      <workItem from="1575746368845" duration="3534000" />
+      <workItem from="1575835578605" duration="1344000" />
+      <workItem from="1575836945736" duration="4034000" />
+      <workItem from="1575841009638" duration="1724000" />
+      <workItem from="1575905289949" duration="8846000" />
+      <workItem from="1576312546191" duration="839000" />
     </task>
     <servers />
   </component>
@@ -203,6 +228,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

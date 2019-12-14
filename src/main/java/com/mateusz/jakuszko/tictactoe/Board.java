@@ -1,24 +1,21 @@
 package com.mateusz.jakuszko.tictactoe;
 
 import com.mateusz.jakuszko.tictactoe.buttons.GameButton;
-import javafx.animation.KeyFrame;
-import javafx.animation.KeyValue;
-import javafx.animation.Timeline;
-import javafx.scene.effect.BlendMode;
-import javafx.scene.shape.Line;
-import javafx.util.Duration;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Board {
 
-    private GameButton[][] boardButtons = createBoardButtons();
-    private List<GameButton[]> winningTrios = createWinningTrios();
+    private GameButton[][] boardButtons;
+    private List<GameButton[]> winningTrios;
     private SceneChanger sceneChanger;
     private GameButton[] winningRow;
-    public Board(SceneChanger sceneChanger) {
+
+    Board(SceneChanger sceneChanger) {
         this.sceneChanger = sceneChanger;
+        boardButtons = createBoardButtons();
+        winningTrios = createWinningTrios();
     }
 
     private GameButton[][] createBoardButtons() {
@@ -33,7 +30,7 @@ public class Board {
     }
 
 
-    public List<GameButton[]> createWinningTrios() {
+    private List<GameButton[]> createWinningTrios() {
 
         List<GameButton[]> winningTriosList = new ArrayList<>();
 
@@ -74,42 +71,20 @@ public class Board {
                     buttons[1].getValueOfButtonField() != -1 &&
                     buttons[2].getValueOfButtonField() != -1) {
                 winningRow = buttons;
+                sceneChanger.addWinningText();
                 blockAllButtons();
                 if (buttons[0].getValueOfButtonField() == 0) {
                     sceneChanger.getPlayerCreator().getHumanPlayer1().addPoint();
                     changePlayersScoreLabels();
-                    System.out.println("player 1: " + sceneChanger.getPlayerCreator().getHumanPlayer1().getScore());
                 } else if (buttons[0].getValueOfButtonField() == 1) {
                     if (sceneChanger.getPlayerCreator().getHumanPlayer2() != null) {
                         sceneChanger.getPlayerCreator().getHumanPlayer2().addPoint();
                         changePlayersScoreLabels();
-                        System.out.println("player 2: " + sceneChanger.getPlayerCreator().getHumanPlayer2().getScore());
                     } else {
                         sceneChanger.getPlayerCreator().getComputerPlayer().addPoint();
                         changePlayersScoreLabels();
-                        System.out.println("player 1: " + sceneChanger.getPlayerCreator().getComputerPlayer().getScore());
                     }
                 }
-                isWinner = true;
-            }
-        }
-        int notEmptyCounter = 0;
-
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                if (!boardButtons[i][j].isEmpty()) {
-                    notEmptyCounter++;
-                }
-            }
-        }
-
-        if (isWinner || notEmptyCounter == 9) {
-
-            if (isWinner) {
-                sceneChanger.addWinningText();
-            }
-            if (notEmptyCounter == 0) {
-
             }
         }
     }
@@ -126,7 +101,7 @@ public class Board {
         }
     }
 
-    public void blockAllButtons() {
+    private void blockAllButtons() {
         for (GameButton[] buttonsAgain : winningTrios) {
             for (int i = 0; i < 3; i++) {
                 buttonsAgain[i].setEmpty(false);

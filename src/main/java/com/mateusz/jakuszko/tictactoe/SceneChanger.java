@@ -6,7 +6,6 @@ import javafx.geometry.Pos;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.effect.BlendMode;
-import javafx.scene.effect.Effect;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
@@ -29,14 +28,14 @@ public class SceneChanger {
     private Label Player2ScoreLabel;
     private Background defaultBackground;
 
-    public SceneChanger(Pane mainPane, Stage mainStage) {
+    SceneChanger(Pane mainPane, Stage mainStage) {
         this.mainStage = mainStage;
         this.mainPane = mainPane;
         this.defaultBackground = mainPane.getBackground();
     }
 
 
-    public void menuScene() {
+    void menuScene() {
         Pane nameOFTheGame = new Pane();
         BackgroundSize backgroundSize = new BackgroundSize(550, 540, true, true, true, false);
         BackgroundImage backgroundImage = new BackgroundImage(gameNameImage, BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT,
@@ -50,6 +49,7 @@ public class SceneChanger {
 
         MenuTwoPlayersButton menuTwoPlayerButton = new MenuTwoPlayersButton(this);
         MenuOnePlayerButton menuOnePlayerButton = new MenuOnePlayerButton(this);
+        LoadButton loadButton = new LoadButton(this);
 
 
         ExitButton menuButton3 = new ExitButton(mainStage);
@@ -65,7 +65,13 @@ public class SceneChanger {
 
         mainPane.getChildren().add(menuTwoPlayerButton);
         mainPane.getChildren().add(menuOnePlayerButton);
+        mainPane.getChildren().add(loadButton);
         mainPane.getChildren().add(menuButton3);
+    }
+
+    public void gameSceneByLoadFile() {
+        this.getMainPane().getChildren().remove(0,5);
+        gameScene();
 
     }
 
@@ -75,8 +81,6 @@ public class SceneChanger {
         hBox.setPrefSize(450, 90);
         mainPane.getChildren().add(hBox);
 
-
-
         player1ScoreLabel = new Label(playerCreator.getHumanPlayer1().getName() + ": " + playerCreator.getHumanPlayer1().getScore());
         player1ScoreLabel.setPrefSize(225, 90);
         player1ScoreLabel.setPadding(new Insets(10));
@@ -85,7 +89,6 @@ public class SceneChanger {
         player1ScoreLabel.setTextFill(Color.GREEN);
         player1ScoreLabel.setFont(Font.font(25));
         player1ScoreLabel.setTextAlignment(TextAlignment.CENTER);
-
 
         Player2ScoreLabel = new Label();
         Player2ScoreLabel.setPrefSize(225, 90);
@@ -113,7 +116,6 @@ public class SceneChanger {
                 mainPane.getChildren().add(board.getBoardButtons()[i][j]);
             }
         }
-
         RestartButton restartButton = new RestartButton(this);
         restartButton.setPrefSize(100, 100);
         restartButton.setTranslateY(-325);
@@ -125,11 +127,17 @@ public class SceneChanger {
         nextButton.setTranslateY(-350);
         mainPane.getChildren().add(nextButton);
 
+        SaveButton saveButton = new SaveButton(playerCreator);
+        saveButton.setTranslateX(350);
+        saveButton.setTranslateY(-250);
+        mainPane.getChildren().add(saveButton);
+
         ExitButton exitButton = new ExitButton(mainStage);
         exitButton.setPrefSize(100, 100);
         exitButton.setBlendMode(BlendMode.SOFT_LIGHT);
-        exitButton.setTranslateX(350);
+        exitButton.setTranslateX(250);
         exitButton.setTranslateY(-100);
+        exitButton.setText("EXIT");
         mainPane.getChildren().add(exitButton);
     }
 
@@ -147,7 +155,6 @@ public class SceneChanger {
         hBox1.getChildren().addAll(label, textField1);
 
         this.textField1 = textField1;
-
 
         EnterGameButton button = new EnterGameButton(this);
         button.setTranslateX(200);
@@ -178,10 +185,10 @@ public class SceneChanger {
 
         this.textField2 = textField2;
     }
-    
-    public void addWinningText() {
+
+    void addWinningText() {
         mainPane.setBackground(new Background(new BackgroundImage(gameNameImage, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT,
-               BackgroundPosition.CENTER, BackgroundSize.DEFAULT)));
+                BackgroundPosition.CENTER, BackgroundSize.DEFAULT)));
     }
 
     public void setNameOfTwoPlayers() {
@@ -198,11 +205,11 @@ public class SceneChanger {
         return playerCreator;
     }
 
-    public Label getPlayer1ScoreLabel() {
+    Label getPlayer1ScoreLabel() {
         return player1ScoreLabel;
     }
 
-    public Label getPlayer2ScoreLabel() {
+    Label getPlayer2ScoreLabel() {
         return Player2ScoreLabel;
     }
 
@@ -214,5 +221,3 @@ public class SceneChanger {
         return defaultBackground;
     }
 }
-
-

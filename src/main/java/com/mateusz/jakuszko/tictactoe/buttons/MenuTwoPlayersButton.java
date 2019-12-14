@@ -15,15 +15,15 @@ public class MenuTwoPlayersButton extends Button {
 
 
     private SceneChanger sceneChanger;
-    private Image playerVsPlayerImage = new Image("file:resources/PvP.jpg");
 
     public MenuTwoPlayersButton(SceneChanger sceneChanger) {
 
         this.sceneChanger = sceneChanger;
-        this.setPrefSize(550,150);
+        this.setPrefSize(550,100);
         makeActionOnButton();
 
         BackgroundSize backgroundSizePvp = new BackgroundSize(550, 540, true, true, true, false);
+        Image playerVsPlayerImage = new Image("file:resources/PvP.jpg");
         BackgroundImage backgroundImagePvp = new BackgroundImage(playerVsPlayerImage, BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT,
                 BackgroundPosition.CENTER, backgroundSizePvp);
         this.setBackground(new Background(backgroundImagePvp));
@@ -34,13 +34,10 @@ public class MenuTwoPlayersButton extends Button {
     }
 
     private void makeActionOnButton() {
-        this.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                sceneChanger.getMainPane().getChildren().remove(0,4);
-                sceneChanger.create2PlayersNameScene();
-                sceneChanger.getPlayerCreator().createTwoHumanPlayers();
-            }
+        this.setOnAction(event -> {
+            sceneChanger.getMainPane().getChildren().remove(0,5);
+            sceneChanger.create2PlayersNameScene();
+            sceneChanger.getPlayerCreator().createTwoHumanPlayers();
         });
     }
 }
