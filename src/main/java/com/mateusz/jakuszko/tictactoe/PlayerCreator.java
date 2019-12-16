@@ -26,7 +26,7 @@ public class PlayerCreator {
 
     public void generateListOfPlayers() {
         listOfPlayers.add(humanPlayer1);
-        if(computerPlayer == null) {
+        if (humanPlayer2 != null) {
             listOfPlayers.add(humanPlayer2);
         } else {
             listOfPlayers.add(computerPlayer);
@@ -60,5 +60,9 @@ public class PlayerCreator {
 
     public void setComputerPlayer(ComputerPlayer computerPlayer) {
         this.computerPlayer = computerPlayer;
+    }
+
+    public void setListOfPlayers(List<Player> listOfPlayers) {
+        this.listOfPlayers = listOfPlayers;
     }
 }

@@ -7,12 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1ac1f86-7339-4970-bc6c-f65852954712" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tic_tac_toe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tic_tac_toe_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FILE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/LoadButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SceneChangerFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/cross.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/exit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/exit_game.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/firstplayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gameSize.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/llg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/newgame.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/puste.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/restart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/save.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/secondplayer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/start.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/ttc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuBackButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -21,39 +32,307 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FILE" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/ComputerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/ComputerPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/HumanPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/PlayerCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/PlayerCreator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/SceneChanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/SceneChanger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/TicTacToeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/TicTacToeMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/GameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/LoadButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/LoadButton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/app/tic-tac-toe.main.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/app/tic_tac_toe_main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/packager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/Welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/JavaAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/WindowsAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/attach.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/awt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/bci.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/concrt140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/dcpr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/decora_sse.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/deploy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/dt_shmem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/dt_socket.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/fontmanager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/fxplugins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/glass.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/glib-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/gstreamer-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/hprof.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/instrument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/j2pcsc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/j2pkcs11.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jaas_nt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/java.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/java_crw_demo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/javafx_font.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/javafx_iio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jawt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jdwp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jfr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jfxmedia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jfxwebkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jsdt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jsound.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/jsoundds.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/lcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/management.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/mlib_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/nio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/npt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/plugin2/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/plugin2/npjp2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/prism_common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/prism_d3d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/prism_sw.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/resource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/sawindbg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/server/classes.jsa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/server/jvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/splashscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/sunec.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/sunmscapi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/t2k.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/unpack.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/verify.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/w2k_lsa_auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/bin/zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/accessibility.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/amd64/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/calendars.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/charsets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/cmm/CIEXYZ.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/cmm/GRAY.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/cmm/PYCC.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/cmm/sRGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/content-types.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/currency.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/access-bridge-64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/cldrdata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/dnsns.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/jaccess.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/jfxrt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/localedata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/nashorn.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/sunec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/sunjce_provider.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/sunmscapi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/sunpkcs11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/ext/zipfs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/flavormap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/hijrah-config-umalqura.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/cursors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/javafx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/javaws.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jfr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jfr/default.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jfr/profile.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jfxswt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jsse.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/jvm.hprof.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/management-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/management/jmxremote.access" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/management/jmxremote.password.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/management/management.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/management/snmp.acl.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/resources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/blacklist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/javaws.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/policy/limited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/policy/limited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/policy/unlimited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/policy/unlimited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/security/trusted.libraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/runtime/lib/tzmappings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/tic-tac-toe.main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/tic-tac-toe.main.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic-tac-toe.main/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic_tac_toe_main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic_tac_toe_main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/bundles/tic_tac_toe_main.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/ComputerPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/HumanPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/PlayerCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/SceneChanger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/TicTacToeMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/GameButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/tic_tac_toe_main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/tic_tac_toe_main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tic_tac_toe_main/tic_tac_toe_main.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ExitGame.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/PvC.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/PvC.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/PvP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/PvP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/circle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/circle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/gameName.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/ComputerPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/PlayerCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/PlayerCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/SceneChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/TicTacToeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/TicTacToeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/EnterGameButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/ExitButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/GameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/GameButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/LoadButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/LoadButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuOnePlayerButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/MenuTwoPlayersButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/NextGameButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/RestartButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mateusz/jakuszko/tictactoe/buttons/SaveButton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +364,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stare/smsv2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -93,6 +372,9 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Falafelki\IdeaProjects\tic-tac-toe\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Falafelki\IdeaProjects\tic-tac-toe\resources" />
     </key>
@@ -209,7 +491,14 @@
       <workItem from="1575836945736" duration="4034000" />
       <workItem from="1575841009638" duration="1724000" />
       <workItem from="1575905289949" duration="8846000" />
-      <workItem from="1576312546191" duration="839000" />
+      <workItem from="1576312546191" duration="15430000" />
+      <workItem from="1576330602929" duration="8679000" />
+      <workItem from="1576344184259" duration="135000" />
+      <workItem from="1576347300584" duration="919000" />
+      <workItem from="1576419001733" duration="5501000" />
+      <workItem from="1576436078929" duration="12241000" />
+      <workItem from="1576514421558" duration="1586000" />
+      <workItem from="1576519384714" duration="13125000" />
     </task>
     <servers />
   </component>

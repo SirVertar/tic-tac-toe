@@ -20,7 +20,8 @@ public class TicTacToeMain extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        primaryStage.setTitle("TIC-TAC-TOE");
+        primaryStage.setTitle("TIC - TAC - TOE");
+
         FlowPane pane = new FlowPane();
 
         BackgroundSize backgroundSize = new BackgroundSize(550, 540, true, true, true, false);
@@ -35,7 +36,7 @@ public class TicTacToeMain extends Application {
         primaryStage.setResizable(false);
         primaryStage.show();
 
-        SceneChanger sceneChanger = new SceneChanger(pane, primaryStage);
+        SceneChanger sceneChanger = new SceneChanger(pane, primaryStage, 7);
         sceneChanger.menuScene();
 
     }

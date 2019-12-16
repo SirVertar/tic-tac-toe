@@ -6,6 +6,7 @@ public abstract class Player implements Serializable {
     private static final long serialVersionUID = -7474096361843092258L;
     private String name;
     private int score;
+    private int id = 0;
 
 
     String getName() {
@@ -27,4 +28,6 @@ public abstract class Player implements Serializable {
     public void setScore(int score) {
         this.score = score;
     }
+
+    public abstract int getId();
 }

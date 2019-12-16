@@ -11,7 +11,6 @@ import javafx.scene.text.TextAlignment;
 
 public class MenuOnePlayerButton extends Button {
 
-
     private SceneChanger sceneChanger;
 
     public MenuOnePlayerButton(SceneChanger sceneChanger) {
@@ -20,13 +19,12 @@ public class MenuOnePlayerButton extends Button {
         this.setPrefSize(550, 100);
         makeAnotherOption();
 
-        Image playerVsComputerImage = new Image("file:resources/PvC.jpg");
+        Image playerVsComputerImage = new Image("file:resources/pvc.jpg");
         BackgroundImage backgroundCircle = new BackgroundImage(playerVsComputerImage, BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT,
                 BackgroundPosition.CENTER,
                 new BackgroundSize(550, 150, true,
                         true, true, false));
         this.setBackground(new Background(backgroundCircle));
-        this.setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.DOTTED, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
         this.setTranslateX(0);
         this.setTranslateY(0);
         this.setTextAlignment(TextAlignment.RIGHT);
