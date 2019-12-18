@@ -1,11 +1,13 @@
 package com.mateusz.jakuszko.tictactoe.buttons;
 
+import com.mateusz.jakuszko.tictactoe.ComputerPlayer;
+import com.mateusz.jakuszko.tictactoe.HumanPlayer;
+import com.mateusz.jakuszko.tictactoe.PlayerCreator;
 import com.mateusz.jakuszko.tictactoe.SceneChanger;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
 import javafx.scene.text.TextAlignment;
 
 
@@ -34,7 +36,7 @@ public class MenuOnePlayerButton extends Button {
         this.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
             sceneChanger.getMainPane().getChildren().remove(0, 5);
             sceneChanger.create1PlayersNameScene();
-            sceneChanger.getPlayerCreator().createOnePlayerAndComputer(sceneChanger.getBoard());
+            sceneChanger.setPlayerCreator(new PlayerCreator(new HumanPlayer(), new ComputerPlayer()));
         });
     }
 

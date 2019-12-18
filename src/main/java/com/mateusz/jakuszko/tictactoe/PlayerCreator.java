@@ -9,20 +9,20 @@ public class PlayerCreator {
     private ComputerPlayer computerPlayer;
     private List<Player> listOfPlayers = new ArrayList<>();
 
-    public void createTwoHumanPlayers() {
-        humanPlayer1 = new HumanPlayer();
-        humanPlayer2 = new HumanPlayer();
+    public PlayerCreator(HumanPlayer humanPlayer1, HumanPlayer humanPlayer2) {
+        this.humanPlayer1 = humanPlayer1;
+        this.humanPlayer2 = humanPlayer2;
         listOfPlayers.add(humanPlayer1);
         listOfPlayers.add(humanPlayer2);
-
     }
 
-    public void createOnePlayerAndComputer(Board board) {
-        humanPlayer1 = new HumanPlayer();
-        computerPlayer = new ComputerPlayer(board);
+    public PlayerCreator(HumanPlayer humanPlayer1, ComputerPlayer computerPlayer) {
+        this.humanPlayer1 = humanPlayer1;
+        this.computerPlayer = computerPlayer;
         listOfPlayers.add(humanPlayer1);
         listOfPlayers.add(computerPlayer);
     }
+
 
     public void generateListOfPlayers() {
         listOfPlayers.add(humanPlayer1);

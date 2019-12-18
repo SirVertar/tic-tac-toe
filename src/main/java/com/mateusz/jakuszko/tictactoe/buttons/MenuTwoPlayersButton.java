@@ -1,14 +1,11 @@
 package com.mateusz.jakuszko.tictactoe.buttons;
 
+import com.mateusz.jakuszko.tictactoe.HumanPlayer;
 import com.mateusz.jakuszko.tictactoe.PlayerCreator;
 import com.mateusz.jakuszko.tictactoe.SceneChanger;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.control.Button;
-import javafx.scene.effect.BlendMode;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
-import javafx.scene.paint.Color;
 import javafx.scene.text.TextAlignment;
 
 public class MenuTwoPlayersButton extends Button {
@@ -35,7 +32,7 @@ public class MenuTwoPlayersButton extends Button {
         this.setOnAction(event -> {
             sceneChanger.getMainPane().getChildren().remove(0, 5);
             sceneChanger.create2PlayersNameScene();
-            sceneChanger.getPlayerCreator().createTwoHumanPlayers();
+            sceneChanger.setPlayerCreator(new PlayerCreator(new HumanPlayer(), new HumanPlayer()));
         });
     }
 }

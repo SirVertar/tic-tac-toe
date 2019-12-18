@@ -22,7 +22,7 @@ public class SceneChanger implements Serializable {
     private Image gameNameImage = new Image("file:resources/ttc.jpg");
     private Image exitImage = new Image("file:resources/exit_game.jpg");
 
-    private static PlayerCreator playerCreator = new PlayerCreator();
+    private PlayerCreator playerCreator;
     private static Board board;
     private TextField textField1;
     private TextField textField2;
@@ -348,5 +348,9 @@ public class SceneChanger implements Serializable {
 
     public SaveButton getSaveButton() {
         return saveButton;
+    }
+
+    public void setPlayerCreator(PlayerCreator playerCreator) {
+        this.playerCreator = playerCreator;
     }
 }
