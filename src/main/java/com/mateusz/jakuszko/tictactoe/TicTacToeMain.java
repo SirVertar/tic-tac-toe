@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 public class TicTacToeMain extends Application {
 
-    private Image backGroundImage = new Image("file:resources/background.png");
+    private final Image backGroundImage = new Image("file:resources/background.png");
 
 
     public static void main(String[] args) {
@@ -38,6 +38,5 @@ public class TicTacToeMain extends Application {
 
         SceneChanger sceneChanger = new SceneChanger(pane, primaryStage, 7);
         sceneChanger.menuScene();
-
     }
 }
