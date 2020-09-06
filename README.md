@@ -7,7 +7,7 @@
 * [How to start up an application](##HowToStartUpAnApplication)
 
 ## Introduction
-### git Tic-Tac-Toe is a simple game - everyone knows what game I'm talking about :) 
+### Tic-Tac-Toe is a simple game - everyone knows what game I'm talking about :) 
 
 ## Screenshots
 You have an option to make a choice between play with your friend or with a computer player.
