@@ -1,4 +1,4 @@
-# SUDOKU CONSOLE GAME
+# Tic-Tac-Toe console-game
 
 ## Table of contents
 * [Introduction](##Introduction)
